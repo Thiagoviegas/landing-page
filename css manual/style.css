@@ -1,0 +1,25 @@
+.bg01 {
+  background-image: url("/assest/backgroundLp.png");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.bg02 {
+  margin-top: 20px;
+  height: fit-content;
+  color: white;
+  width: 500px;
+  background-color: #131212f1;
+}
+.bg03 {
+  height: 30px;
+  width: 150px;
+  margin-bottom: 9px;
+}
+@media screen and (max-width: 600px) {
+  .bg02 {
+    margin: 10px;
+    width: auto;
+  }
+}
